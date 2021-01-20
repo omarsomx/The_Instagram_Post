@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+}
+
+.post {
+    background-color: whitesmoke;
+    width: 35%;
+    height: 30%;
+    margin: 5rem auto 5rem auto;
+}
+
+.post_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-family: 'Arimo', sans-serif;
+}
+
+.post_header_hmtl{
+    display: flex;
+    flex-grow: 0.2;
+    align-self: center;
+}
+
+.post_header_title{
+    display: flex;
+    flex-grow: 2;
+}
+
+.post_header_points{
+    display: flex;
+    flex-grow: 7;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.post_body {
+    max-height: 50%;
+    width:100%;
+}
+img {
+    width: 100%;
+    object-fit: fill;
+}
+.post_footer {
+    padding-bottom: 1em;
+}
+.post_footer_icons {
+    display: flex;
+    flex-grow: 0.2;
+    padding-top: 1em;
+}
+.icon-favorite {
+    display: flex;
+    flex-grow: 0.2;
+    margin-left: 0.8em;
+}
+.icon-comment {
+    display: flex;
+    flex-grow: 0.2;
+}
+.icon-send {
+    display: flex;
+    flex-grow: 0.2;
+}
+.icon-bookmark {
+    display: flex;
+    flex-grow: 8;
+    justify-content: flex-end;
+    margin-right: 0.8em;
+}
+.post_footer_tags {
+    margin-top: 0.8em;
+    padding: 0.8em;
+    text-align: left;
+    font-family: 'Arimo', sans-serif;
+}
+
+.post_footer_text {
+    padding: 0.8em;
+    text-align: justify;
+    font-family: 'Arimo', sans-serif;
+}
